@@ -1,0 +1,30 @@
+﻿@charset "utf-8";
+
+.text{
+    width:100%;
+    height:auto;
+    text-align:center;
+    font-size:50px;
+    font-weight:bold;
+}
+
+.button {
+    width: auto;
+    height: auto;
+    text-align: center;
+    justify-content:center;
+    margin-top:150px;
+    font-size:20px;
+   
+}
+
+.button2 {
+    border-radius:50px;
+    margin:10px;
+    background-color:#c0c0c0;
+    
+}
+.honbun {
+    padding-top: 200px;
+}
+

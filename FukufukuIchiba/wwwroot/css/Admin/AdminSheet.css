@@ -1,0 +1,140 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+}
+
+
+
+ul2 {
+    height: 1000px;
+    width: 200px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: #8af887;
+    float: left;
+    position: fixed;
+}
+
+li2 a {
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #000000;
+}
+
+li2 {
+    text-align: center;
+}
+
+    li2:last-child {
+        border-bottom: none;
+    }
+
+    li2 a.active {
+        color: #ffffff;
+        background-color: #da3c41;
+    }
+
+    li2 a:hover:not(.active) {
+        color: #ffffff;
+        background-color: #1b2538;
+    }
+
+
+header {
+    width: 10000px;
+    height: 200px;
+    background-color: #8af887;
+    position: fixed;
+}
+
+#header-title {
+    padding-top: 135px;
+    padding-left: 15px;
+    color: #000000;
+    font: bold 44px sans-serif;
+}
+
+td {
+    border: solid 2px #666666;
+}
+
+th {
+    background-color: #00a954;
+    border: solid 2px #666666;
+    font-size: larger;
+}
+
+#honbun {
+    padding-top: 200px;
+    padding-left: 0px;
+}
+

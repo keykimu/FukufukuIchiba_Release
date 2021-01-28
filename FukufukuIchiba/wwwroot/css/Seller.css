@@ -1,0 +1,116 @@
+.SellerContainer{
+    margin-top:100px;
+    padding-bottom:100px;
+    height:auto;
+    min-height:1000px;
+
+}
+.sup-title {
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: 700;
+    background: #f5f1eb;
+}
+
+.SellerTop {
+    overflow: hidden;
+    display: flex;
+    padding: 20px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.SellerMainImage{
+    margin-right:10px;
+}
+.SellerImg {
+    border-radius: 50%;
+}
+ .sup-name {
+    font-size: 18px;
+    font-weight: 700;
+}
+.SellerSyouhin {
+    display: flex;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+
+}
+.item {
+    margin-right: 20px;
+    height: 100%;
+    max-height: 200px;
+    width: 100%;
+    max-width: 150px;
+    background-color: #62b684;
+}
+.item-card {
+    height: 200px;
+}
+.btn {
+    text-align: center;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100px;
+    height: auto;
+    background-color: chartreuse;
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: #668ad8; /*ボタン色*/
+    color: #FFF;
+    border-bottom: solid 4px #627295;
+    border-radius: 3px;
+}
+.btn:active{
+    -webkit-transform: translateY(4px);
+  transform: translateY(4px);/*下に動く*/
+  border-bottom: none;/*線を消す*/
+}
+
+
+.right {
+    width: 100%;
+    float: right;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.item-list {
+    display: flex;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+
+.item {
+    margin-right: 20px;
+    margin-bottom: 30px;
+    height: 100%;
+    max-height: 200px;
+    width: 100%;
+    max-width: 150px;
+    background-color: #62b684;
+}
+
+.item-card {
+    height: 200px;
+}
+
+.sup-desc {
+    padding: 20px 16px;
+    font-size: 13px;
+    border-top: 1px solid #d1d1c3;
+    width:100%;
+}
+
+.thumbs {
+    overflow: hidden;
+    max-width: 130px;
+    width: 25%;
+    margin-right: 15px;
+    border-radius: 50%;
+}

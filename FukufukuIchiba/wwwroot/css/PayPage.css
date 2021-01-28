@@ -1,0 +1,120 @@
+﻿blockquote, body, code, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    color: #000;
+    background: #fff;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+nav {
+    display: block;
+}
+
+div {
+    display: block;
+}
+
+form {
+    display: block;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.img-l {
+    display: inline;
+}
+
+.container {
+    margin-top: 200px;
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 800px;
+    width: auto;
+}
+
+.contain {
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    width: auto;
+    background-color: aliceblue;
+}
+
+.item-li {
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    width: 300px;
+}
+
+.item-item {
+    margin: 10px;
+}
+
+.item-pay {
+    width: 156px;
+    height: 60px;
+}
+
+.ryou-left {
+    float: left;
+}
+
+.ryou-right {
+    float: right;
+}
+
+.ryou {
+    text-align: right;
+}
+
+.last {
+    float: left;
+    padding: 1px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    border-top: solid 1px black;
+}
+
+.ryou-l {
+    display: inline;
+    margin-right: 10px;
+}
+
+.btn {
+    text-align: center;
+    margin-right: auto;
+    margin-left: 10px;
+    width: 100px;
+    height: auto;
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: #668ad8; /*ボタン色*/
+    color: #FFF;
+    border-bottom: solid 4px #627295;
+    border-radius: 3px;
+}
+
+    .btn:active {
+        -webkit-transform: translateY(4px);
+        transform: translateY(4px); /*下に動く*/
+        border-bottom: none; /*線を消す*/
+    }
+    a{
+        color:#ffffff;
+    }

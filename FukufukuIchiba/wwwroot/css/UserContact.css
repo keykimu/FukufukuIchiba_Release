@@ -1,0 +1,37 @@
+﻿label {
+    clear: left;
+    margin: 0px;
+    float:left;
+    width: 180px;
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #a0a0a0;
+}
+
+.form_btn {
+    display: block;
+    margin: 50px auto 60px auto;
+    padding: 0px;
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    background: #000;
+    text-align: center;
+    line-height: 50px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.form_text {
+    width: 298px;
+    height: 38px;
+}
+
+.contents {
+    margin: 0px;
+    height: 105px;
+    width: 340px;
+}

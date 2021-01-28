@@ -1,0 +1,80 @@
+﻿.container-Sales {
+    margin-top: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 700px;
+    background-color: antiquewhite;
+    width: auto;
+}
+
+.btn {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 170px;
+    padding: 10px;
+    height: auto;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    background-color: aquamarine;
+    border: solid 1px #627295;
+    border-radius: 3px;
+}
+
+    .btn:hover {
+        opacity: 0.7;
+        cursor: pointer;
+    }
+
+.list {
+    background-color: #FFCC33;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+li a {
+    padding: 11px 16px;
+    text-decoration: none;
+    color: #000000;
+}
+
+li {
+    width: auto;
+    list-style-type: none;
+    text-align: center;
+}
+
+.syou {
+    padding: 30px;
+}
+
+.tuuti {
+    width: auto;
+    padding: 14px;
+    height: 50px;
+    background-color: #fff;
+}
+
+.item-Sales {
+    display: inline;
+}
+.btn-buy {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top:490px;
+    width: 170px;
+    padding: 10px;
+    height: auto;
+    display: block;
+    text-decoration: none;
+    color: black;
+    background-color: aquamarine;
+    border: solid 1px #627295;
+    border-radius: 3px;
+}

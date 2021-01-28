@@ -1,0 +1,352 @@
+﻿.news-list {
+    padding-top: 100px;
+    border-bottom: 1px solid #d1d1c3;
+    align-items: center;
+    width: 100%;
+    padding: 0 50px 0 30px;
+    background-color: #fff;
+    z-index: 99;
+}
+
+.header-nav-item {
+    display: flex;
+}
+
+/*.header-nav-item-btn {
+    color: #fff;
+    background-color: #FF6666;
+    width: 90px;
+    height: 62px;
+    font-size: 11px;
+    display: flex;
+    flex-direction: column; /*https://developer.mozilla.org/ja/docs/Web/CSS/flex-direction*/
+    /*align-items: center; /*https://developer.mozilla.org/ja/docs/Web/CSS/align-items*/
+    /*justify-content: center; /*https://developer.mozilla.org/ja/docs/Web/CSS/justify-content*/
+/*}*/
+
+.header-nav-item-btn-beginner {
+    background-color: #62b684;
+    font-weight: 600;
+    color: #fff;
+}
+
+.search-form {
+    position: relative;
+    width: 70%;
+}
+
+a, a:active, a:hover, a:link, a:visited {
+    text-decoration: none;
+}
+
+button, input, select {
+    border: none;
+}
+
+.search-form-field {
+    width: 100%;
+    height: 40px;
+    outline: none; /*クリックした後の線を非表示*/
+    border-radius: 20px;
+    border-color: #cab270;
+    padding: 4px 50px 4px 30px;
+    background-color: #f2f2f2;
+    background-image: url(file:///C:/Users/%E4%BD%90%E5%B7%9D/Downloads/musi.png);
+    background-repeat: no-repeat;
+    background-position: 10px;
+    background-size: 15px auto;
+}
+
+.search-form-btn:hover {
+    opacity: 0.5;
+}
+
+.search-form-btn {
+    width: 80px;
+    min-width: 50px;
+    background: #cab270;
+    border-radius: 0 10px 10px 0;
+    font-size: 14px;
+    position: absolute;
+    cursor: pointer;
+    right: 0;
+    height: 100%;
+}
+/**/
+.news-list {
+    padding-top: 80px;
+}
+
+.news-contana {
+    display: flex;
+    margin: 10px;
+    background-color: antiquewhite;
+}
+
+.cnt_news_lists {
+    border-top: 1px solid #d1d1c3;
+    font-size: 16px;
+    overflow-y: auto;
+    height: 70px;
+}
+
+.news-txt {
+    padding: 10px;
+    width: auto;
+    height: auto;
+}
+
+.Map {
+    margin-top: 20px;
+}
+
+.Mapimg {
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    outline: none;
+    width: 300px;
+    height: 234px;
+    position: static;
+    margin-top: 20px;
+}
+
+h2 {
+    display: block;
+    text-align: center;
+    font-size:20px;
+}
+
+p {
+    display: block;
+    margin-top: auto;
+    text-align: center;
+}
+
+@media screen and ( min-width:480px ) {
+    .main {
+        display: flex;
+        width: 100%;
+        max-width: 1240px;
+    }
+
+    .left {
+        border-radius: 20px;
+        height: 100%;
+        max-height: 100px;
+        width: 200px;
+        max-width: 220px;
+        float: left;
+        background-color: lightpink;
+    }
+
+    ul .list-ul {
+        width: 300px;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+
+    }
+
+    li a {
+        padding: 11px 16px;
+        text-decoration: none;
+        color: #000000;
+    }
+
+    .list-li {
+        background-color: #FFCC33;
+    }
+
+    li a:hover {
+        color: #ffffff;
+        background-color: #1b2538;
+    }
+
+    li {
+        list-style-type: none;
+        text-align: center;
+    }
+
+
+
+    .right {
+        margin-left: 50px;
+        width: 100%;
+        max-width: 1200px;
+        float: right;
+        border-radius: 30px;
+        background-color: lightpink;
+        padding: 20px;
+    }
+    .item-list {
+        margin-left:40px;
+        height:460px;
+    }
+
+    .item {
+        margin:10px;
+        height: 200px;
+        width: 130px;
+        background-color: #62b684;
+        float:left;
+    }
+
+    .item-card {
+        height: 200px;
+    }
+
+    .Top-left {
+        font-size: 25px;
+        padding: 10px 0 10px 0;
+    }
+
+    .item-img {
+        height: 100px;
+        width: 100px;
+        border: solid 1px black;
+    }
+
+    .Top-right {
+        font-size: 40px;
+        padding: 0px 0 20px 0;
+    }
+
+    footer {
+        width: 100%;
+        background-color: #89c7de;
+        color: #fff;
+        text-align: center;
+        padding: 30px 0;
+        bottom: 0; /*下に固定*/
+    }
+
+    .ul-sitemap {
+        height: auto;
+    }
+}
+
+@media screen and ( max-width:480px ) {
+    .main {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .left {
+        margin: 0;
+        padding: 0;
+        background-color: lightpink;
+    }
+
+    ul {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    li a {
+        padding: 11px 16px;
+        text-decoration: none;
+        color: #000000;
+    }
+
+    .list-li {
+        background-color: #FFCC33;
+        margin-bottom: 5px;
+        display: inline-block;
+        width: 80px;
+        height: 40px;
+    }
+
+    li a:hover {
+        color: #ffffff;
+        background-color: #1b2538;
+    }
+
+    li {
+        list-style-type: none;
+        text-align: center;
+        border-radius: 50%;
+        width: 13em;
+        height: 13em;
+        background-color:cadetblue;
+    }
+
+    .right {
+        margin-top:10px;
+        margin-bottom:10px;
+        height: 250px;
+        width: 100%;
+        max-width: 400px;
+        border-radius: 30px;
+        background-color: lightpink;
+        padding: 10px;
+    }
+
+    .item-list {
+        display: flex;
+        justify-content: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+
+    .item {
+        margin-right: 10px;
+        margin-bottom: 15px;
+        height: 100%;
+        max-height: 100px;
+        width: 100%;
+        max-width: 75px;
+        background-color: #62b684;
+    }
+
+    .item-card {
+        height: 200px;
+    }
+
+    .Top-left {
+        font-size: 25px;
+        padding: 10px 0 10px 0;
+    }
+
+    .item-img {
+        height: 100px;
+        width: 100px;
+        border: solid 1px black;
+    }
+
+    .Top-right {
+        font-size: 40px;
+        padding: 0px 0 20px 0;
+    }
+}
+
+.New_tourist_spot{
+    margin-top:30px;
+}
+
+.tourist_spot_info{
+    
+    background-color:#b7ff77;
+    border-radius:20px;
+    height:200px;
+    width:auto;
+    padding:20px 20px 20px 20px;
+}
+
+.area_info{
+    margin-bottom:10px;
+    font-size:30px;
+}
+
+.line_line{
+    border-style:solid;
+    border-top:1px;
+}
+
+.New_info{
+    margin-top:10px;
+    font-size:20px;
+}
+

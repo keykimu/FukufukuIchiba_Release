@@ -1,0 +1,35 @@
+﻿.container-qa{
+    margin-top:100px;
+    margin-bottom:270px;
+
+}
+.cont{
+    font-size:25px;
+    margin-top:20px;
+}
+.line{
+    border-bottom: 2px solid #000000;
+}
+.anser{
+    background-color:#f8ea6e;
+}
+.btn {
+    text-align: center;
+    margin-right: auto;
+    margin-left: 10px;
+    margin-top:10px;
+    height: auto;
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: #668ad8; /*ボタン色*/
+    color: #FFF;
+    border-bottom: solid 4px #627295;
+    border-radius: 3px;
+}
+a{
+    color:#ffffff;
+}
+p{
+    margin-bottom:10px;
+}
